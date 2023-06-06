@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* border:solid; */
+    /* overflow: scroll; */
+}
+
+.container{
+    background-color: lightgray;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* HEADER PART */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    /* flex-direction: row; */
+}
+.logos img{
+    height: 100px;
+    width: 100px;
+}
+.about{
+    display: flex;
+    gap: 20px;
+}
+.about a:hover{
+    background-color: transparent;
+    color: dodgerblue;
+}
+.page1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.name img{
+    height: 60px;
+    width: 60px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: dodgerblue;
+    padding: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name h3{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* BODY PART */
+
+.abouts{
+    background-color: lightgray;
+    height: 100vh;
+    width: 100%;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: dodgerblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.subhead{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: dodgerblue;
+    margin-left: 30px;
+    padding: 40px;
+}
+.unorder li{
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.paraghraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px; 
+    line-height: 30px;
+    padding: 40px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.paraghraph img{
+    height: 50vh;
+    width: 80vh;
+}
+.bg{
+    background-color: lightgray;
+    height: 125vh;
+    width: 100%;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: dodgerblue;
+    padding: 40px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+.project img{
+    height: 40vh;
+    width: 70vh;
+}
+.project a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+.project a:hover{
+    background-color: transparent;
+    color: dodgerblue;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+.lap{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+/* FINAL PAGE */
+
+.final{
+    background-color: lightgray;
+    /* height: 100vh;
+    width: 100%; */
+}
+.contact{
+    display: flex;
+   /* min-width:100%;
+   min-height:100%; */
+    justify-content: center;
+    /* flex-direction: column; */
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 40px;
+    color: dodgerblue;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    gap: 30px;
+}
+.form2 input{
+    height: 40px;
+    width: 50vw;
+}
+.message{
+    width: 50vw;
+    height: 30vh;
+}
+.snd{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px;
+    width: 10vw;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #0082f3;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #0082f3;
+}
+  .snd:hover {
+    background-color: transparent;
+    color:black;
+}
+.person img{
+    height: 50vh;
+    width: 40vh;
+
+}
+
+/* FOOTER */
+
+.last{
+    background-color: gray;
+    width: 100%;
+    height: 24vh;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    text-align: center;
+    line-height: 80px;
+}
+.footer a:hover {
+    background-color: transparent;
+    color:black;
+    text-decoration: underline;
+}
+.symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.symbol img {
+    height: 90px;
+    width: 90px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1000px) {
+    .whole{
+       overflow: hidden;
+      
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+    }
+    .abouts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .paraghraph{
+        display: flex;
+        flex-direction: column;
+    }
+    .abouts img{
+        /* display: flex; */ 
+        width: 40vh;
+        height: 30vh;
+    }
+    .bg{
+        /* background-color: lightgray; */
+        height: 100%;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        padding: 80px;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project img{
+        height: 35vh;
+        width: 70vw;
+    }
+    .final{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        /* margin-top: 20vh; */
+    } 
+    /* .contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    } */
+    .form{
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+    .person img{
+        /* height: 30vh;
+        width: 35vh; */
+        display: none;
+    }
+    /* .last{
+        width: 46vh;
+        height: 20vh;
+    } */
+    .snd{
+        width: 100px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 15px;
+    }
+}
